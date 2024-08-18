@@ -19,13 +19,16 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontFamily: {
+                manrope:["Manrope", 'sans-serif']
               }
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-lg mx-auto px-6 lg:px-8">
       <!-- banner section start here -->
         <section class="lg:flex pt-6 lg:pt-8">
@@ -212,5 +215,101 @@
             </div>
          </section>
     </main>
+    <footer class="bg-orange-100  ">
+       <div class="max-w-screen-lg mx-auto p-12">
+        <!-- footer nav -->
+        <div class="md:flex justify-between items-center">
+          <div>
+            <img src="./images/cup.png" alt="">
+          </div>
+          <div class="flex items-center gap-6">
+            <h3 class="text-gray-500">Ready to get strated?</h3>
+            <button class="text-white font-bold bg-gradient-to-r from-orange-500 to-red-500 px-2 py-2 rounded-lg">Get Started</button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+                  <!-- grid column 1 -->
+          <div>
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+           <ul class="space-y-2">
+              <li>
+                <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Home</a>
+              </li>
+              <li>
+                <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">About US</a>
+              </li>
+              <li>
+                <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Insurance</a>
+              </li>
+              <li>
+                <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Privacy Policy</a>
+              </li>
+           </ul>
+          </div>
+          </div>
+       <!-- column 2 -->
+          <div>
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+         <ul class="space-y-2">
+            <li>
+              <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Home</a>
+            </li>
+            <li>
+              <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">About US</a>
+            </li>
+            <li>
+              <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Insurance</a>
+            </li>
+            <li>
+              <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Privacy Policy</a>
+            </li>
+         </ul>
+        </div>
+          </div>
+     <!-- Column 3 -->
+        <div>
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+       <ul class="space-y-2">
+          <li>
+            <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Home</a>
+          </li>
+          <li>
+            <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">About US</a>
+          </li>
+          <li>
+            <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Insurance</a>
+          </li>
+          <li>
+            <a class="md:text-sm text-gray-500 hover:text-red-500" href="#">Privacy Policy</a>
+          </li>
+       </ul>
+      </div>
+        </div>
+        <!-- Column 4 -->
+          <div>
+            <h2 class="font-bold md:text-2xl">Subscribe to our newsletter</h2>
+            <br>
+            <div class="flex flex-col-1 space-y-2">
+             <div>
+              <input  class="bg-transparent border-b-2 border-black" type="text" placeholder="Email address" name="" id=""> <i class="fa-solid fa-chevron-right w-7 h-7  bg-gradient-to-r from-orange-500 to-red-500 inline-flex rounded-full text-white items-center justify-center"></i>
+             </div>
+            </div>
+            <br>
+            <div class="flex gap-10">
+              <div><i class="fa-brands fa-facebook-f text-2xl"></i></div>
+              <div><i class="fa-brands fa-twitter text-2xl"></i></div>
+              <div><i class="fa-brands fa-square-instagram text-2xl"></i></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="text-center mt-12">
+          <p class="text-gray-500">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+       </div>
+    </footer>
 </body>
 </html>
